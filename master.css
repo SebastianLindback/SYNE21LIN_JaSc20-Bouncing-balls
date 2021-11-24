@@ -32,3 +32,59 @@ h1 {
   color: transparent;
   text-shadow: 0 0 4px white;
 }
+.menuOptions{
+  width: 150px;
+  position: absolute;
+  margin: 0;
+  top: 30vh;
+  left: 50vw;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.btn {
+  margin-bottom: 20px;
+}
+.menu{
+background-color:#e6a680;
+position: absolute;
+top: 10px;
+left: 10px;
+}
+.uiSetting{
+  float: left;
+  display: none;
+  color:white;
+  text-align: center;
+}
+.uiDisplay{
+  background-color: #cd4d00;
+  border: 0px;
+  width: 125px;
+
+  min-height: 75px;
+  padding: 5px 3px 5px;
+  height: auto;
+  box-shadow: 5px 10px #03487E;
+  margin-bottom: 20px;
+}
+.uiDisplay p {
+  margin-top: 30px;
+  padding: 0;
+}
+button{
+  background-color: #cd4d00;
+  border: 0px;
+  min-width: 125px;
+  width: auto;
+  min-height: 25px;
+  padding: 5px 3px 5px;
+  height: auto;
+  box-shadow: 5px 10px #03487E;
+
+
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-weight: bold;
+}

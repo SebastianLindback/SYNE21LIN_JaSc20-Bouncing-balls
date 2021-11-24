@@ -1,19 +1,46 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Bouncing balls</title>
-    <link rel="stylesheet" href="master.css">
-  </head>
 
-  <body>
-    <h1>bouncing balls <br> "p" to pause </h1>
+<head>
+  <meta charset="utf-8">
+  <title>Bouncing balls</title>
+  <link rel="stylesheet" href="master.css">
+</head>
 
-    <canvas>
+<body>
+  <h1>bouncing balls </h1>
+  <div class="menuOptions">
 
-    </canvas>
+<!-- Default menu UI -->
+    <div class="uiDefault">
+      <button class="btn uiPause" onclick="togglePause();" type="button" name="button">Start</button>
+      <button class="btn" onclick="uiSettings();" type="button" name="button">Settings</button>
+    </div>
 
-    <script src="script.js"></script>
+<!-- Settings menu UI -->
+    <div class="uiSetting">
+      <button class="btn uiPattern" onclick="uiPattern();" type="button" name="button">Pattern</button>
+      <button class="btn uiColor " onclick="uiColor();" type="button" name="button">Color</button>
+      <div class="uiDisplay">
+        <p>Objekts: 15</p>
 
-  </body>
+
+      </div>
+
+      <button class="btn " onclick="ballAmount(true);" type="button" name="button">Add</button>
+      <button class="btn " onclick="ballAmount(false);" type="button" name="button">Reduce</button>
+      <button class="btn " onclick="uiMainMenu();" type="button" name="button">Main menu</button>
+    </div>
+
+  </div>
+  <button class="btn menu" onclick="menuToggle(true);" type="button" name="button">menu</button>
+
+  <canvas>
+
+  </canvas>
+
+  <script src="script.js"></script>
+
+</body>
+
 </html>
