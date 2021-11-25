@@ -37,7 +37,7 @@ h1 {
   position: absolute;
   margin: 0;
   top: 30vh;
-  left: 50vw;
+  left: 45vw;
   margin-top: auto;
   margin-bottom: auto;
 }
@@ -61,6 +61,21 @@ left: 10px;
   border: 0px;
   width: 125px;
 
+  min-height: 50px;
+  padding: 2px 1px 2px;
+  box-shadow: 5px 10px #03487E;
+  margin-bottom: 20px;
+}
+.uiTips{
+  background-color: #cd4d00;
+  border: 0px;
+  width: 125px;
+  font-size: 12px;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-weight: bold;
   min-height: 75px;
   padding: 5px 3px 5px;
   height: auto;
@@ -68,7 +83,6 @@ left: 10px;
   margin-bottom: 20px;
 }
 .uiDisplay p {
-  margin-top: 30px;
   padding: 0;
 }
 button{

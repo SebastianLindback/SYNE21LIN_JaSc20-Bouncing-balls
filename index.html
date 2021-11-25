@@ -15,11 +15,18 @@
     <div class="uiDefault">
       <button class="btn uiPause" onclick="togglePause();" type="button" name="button">Start</button>
       <button class="btn" onclick="uiSettings();" type="button" name="button">Settings</button>
+      <div class="uiTips">
+        <p style ="text-align: center;">TIPS</p>
+        <p>Pause = 'P'</p>
+        <p>menu = 'ESC'</p>
+
+
+      </div>
     </div>
 
 <!-- Settings menu UI -->
     <div class="uiSetting">
-      <button class="btn uiPattern" onclick="uiPattern();" type="button" name="button">Pattern</button>
+      <button class="btn uiPattern" onclick="uiPattern();" type="button" name="button">Pattern3</button>
       <button class="btn uiColor " onclick="uiColor();" type="button" name="button">Color</button>
       <div class="uiDisplay">
         <p>Objekts: 15</p>
@@ -27,8 +34,8 @@
 
       </div>
 
-      <button class="btn " onclick="ballAmount(true);" type="button" name="button">Add</button>
-      <button class="btn " onclick="ballAmount(false);" type="button" name="button">Reduce</button>
+      <button class="btn " onclick="uiBallAmount(true);" type="button" name="button">Add</button>
+      <button class="btn " onclick="uiBallAmount(false);" type="button" name="button">Reduce</button>
       <button class="btn " onclick="uiMainMenu();" type="button" name="button">Main menu</button>
     </div>
 
